@@ -1,0 +1,33 @@
+.game-wrapper {
+  flex: 1 1 auto;
+  padding: 20px;
+}
+
+.game canvas {
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.game-bar {
+  min-width: 200px;
+}
+
+.game-bar span {
+  display: flex;
+  gap: 7px;
+}
+
+.game-bar span svg {
+  max-width: 20px;
+}
+
+.board {
+  min-width: 300px;
+  min-height: 300px;
+  background-color: #ccc;
+  display: flex;
+}
+
+.board > *:only-child {
+  margin: auto;
+}
